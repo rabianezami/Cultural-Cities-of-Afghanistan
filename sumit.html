@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Cultural Cities</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallary.html">Gallery</a></li>
+      <li><a href="city.html">City of the Day</a></li>
+      <li><a href="sumit.html">Submit</a></li>
+    </ul>
+  </nav>
+
+  <section class="submit-city" id="submit">
+    <header>
+      <h2>Submit a City</h2>
+    </header>
+  
+    <form class="submit-form" action="#" method="post">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="city">City Name</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="detail">Cultural Detail</label>
+        <textarea id="detail" name="detail" rows="4" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="file">Add Picture</label>
+        <input type="file" id="file" name="file" required>
+      </div>
+  
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+  
+  
+      
+</body>
+</html>
